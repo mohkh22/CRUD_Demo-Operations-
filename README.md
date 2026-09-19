@@ -196,4 +196,74 @@ Because the application uses an **in-memory data store**, all changes are lost w
 
 ## 🧪 Testing
 
-I
+If the `CRUDTests` project is included, run the unit tests using:
+
+```bash
+dotnet test
+```
+
+You can also build the complete solution before running the tests:
+
+```bash
+dotnet build
+dotnet test
+```
+
+## 🔌 Dependency Injection
+
+The application uses ASP.NET Core's built-in Dependency Injection system.
+
+The services are registered in `Program.cs`:
+
+```csharp
+builder.Services.AddSingleton<IPersonService, PersonService>();
+builder.Services.AddSingleton<ICountryService, CountryService>();
+```
+
+Using interfaces allows the controllers to depend on abstractions instead of concrete service implementations.
+
+## 📐 Architecture
+
+The project follows a simple layered structure:
+
+```text
+┌─────────────────────────┐
+│      CRUD Web App       │
+│ Controllers + Views     │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│        Services         │
+│ Business Logic          │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│   ServiceContracts      │
+│ DTOs + Interfaces       │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│        Entities         │
+│ Person + Country        │
+└─────────────────────────┘
+```
+
+This separation helps keep the web layer independent from the service implementations and makes the application easier to test and maintain.
+
+
+
+### 📌 Project Status
+
+This project is intended as a learning project for practicing:
+
+* ASP.NET Core MVC
+* CRUD operations
+* Dependency Injection
+* Service Layer
+* DTOs
+* DataAnnotations
+* Unit Testing
+* Basic application architecture
