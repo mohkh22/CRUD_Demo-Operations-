@@ -36,9 +36,9 @@ namespace CRUD.Controllers
                 {nameof(PersonResponse.Gender),"Gender" },
             };
 
-            
-            
-            List<PersonResponse> persons = _personService.GetFilterdPersons(SearchBy,SearchString);
+
+
+            List<PersonResponse> persons = _personService.GetFilterdPersons(SearchBy, SearchString);
             ViewBag.CurrentSearchString = SearchString;
             ViewBag.CurrentSearchBy = SearchBy;
             List<PersonResponse> SortedPersons = _personService.GetSortedPersons(persons, SortBy, SortOrder);
@@ -53,7 +53,7 @@ namespace CRUD.Controllers
         public IActionResult Create()
         {
             ViewBag.Countries = _countryService.GetAllCountries();
-            return View(); 
+            return View();
         }
 
 
@@ -92,10 +92,10 @@ namespace CRUD.Controllers
                 {
                     Text = temp.CountryName,
                     Value = temp.CountryID.ToString(),
-                    Selected = person.CountryID == temp.CountryID ? true :false
-                });  
-            
-            
+                    Selected = person.CountryID == temp.CountryID ? true : false
+                });
+
+
 
             return View(person);
         }
@@ -123,11 +123,32 @@ namespace CRUD.Controllers
 
             PersonResponse? PersonResponse = _personService.UpdatePerson(person);
 
-            return RedirectToAction("Index"); 
+            return RedirectToAction("Index");
+        }
+
+
+
+        [HttpGet]
+        [Route("[action]/PersonID")]
+        public IActionResult Delete(Guid PersonID)
+        {
+            PersonResponse? person = _personService.GetPersonByPersonID(PersonID);
+            if (person is null)
+                return RedirectToAction("Index");
+            return View(person);
+        }
+
+
+        [HttpPost]
+        [Route("[action]/PersonID")]
+        public IActionResult Delete(PersonResponse? person)
+        {
+            bool deletedPerson = _personService.DeletePerson(person?.PersonID);
+
+            return RedirectToAction("Index");
+
         }
 
     }
-
-
     
 }
