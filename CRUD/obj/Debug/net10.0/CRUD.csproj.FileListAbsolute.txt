@@ -78,3 +78,45 @@ F:\fullstack\BackEnd\Harsha\Part3\Project-part3\CRUD\CRUD\obj\Debug\net10.0\CRUD
 F:\fullstack\BackEnd\Harsha\Part3\Project-part3\CRUD\CRUD\obj\Debug\net10.0\CRUD.genruntimeconfig.cache
 F:\fullstack\BackEnd\Harsha\Part3\Project-part3\CRUD\CRUD\obj\Debug\net10.0\ref\CRUD.dll
 F:\fullstack\BackEnd\Harsha\Part3\Project-part3\CRUD\CRUD\obj\Debug\net10.0\compressed\4wg8ohzk7s-{0}-nc6qh41eff-nc6qh41eff.gz
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\appsettings.Development.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\appsettings.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\CRUD.staticwebassets.runtime.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\CRUD.staticwebassets.endpoints.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\CRUD.exe
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\CRUD.deps.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\CRUD.runtimeconfig.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\CRUD.dll
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\CRUD.pdb
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\Entities.dll
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\ServiceContracts.dll
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\Services.dll
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\Entities.pdb
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\ServiceContracts.pdb
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\bin\Debug\net10.0\Services.pdb
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.csproj.AssemblyReference.cache
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\rpswa.dswa.cache.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.GeneratedMSBuildEditorConfig.editorconfig
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.AssemblyInfoInputs.cache
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.AssemblyInfo.cs
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.csproj.CoreCompileInputs.cache
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.MvcApplicationPartsAssemblyInfo.cache
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.RazorAssemblyInfo.cache
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.RazorAssemblyInfo.cs
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.sourcelink.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\rjimswa.dswa.cache.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\scopedcss\bundle\CRUD.styles.css
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\compressed\4wg8ohzk7s-{0}-nc6qh41eff-nc6qh41eff.gz
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\staticwebassets.build.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\staticwebassets.build.json.cache
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\staticwebassets.development.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\swae.build.ex.cache
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.csproj.Up2Date
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.dll
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\refint\CRUD.dll
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.pdb
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\CRUD.genruntimeconfig.cache
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\obj\Debug\net10.0\ref\CRUD.dll

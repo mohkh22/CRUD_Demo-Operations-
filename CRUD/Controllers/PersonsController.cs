@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Entities;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using Services;
@@ -75,7 +77,54 @@ namespace CRUD.Controllers
             return RedirectToAction("Index", "Persons");
         }
 
+        [HttpGet]
+        [Route("[action]/PersonID")]
+        public IActionResult Edit(Guid PersonID)
+        {
+            PersonResponse? person = _personService.GetPersonByPersonID(PersonID);
+            if (person is null)
+                return RedirectToAction("Index");
 
+            List<CountryResponse> countries = _countryService.GetAllCountries();
+
+            ViewBag.Countries = countries.Select(
+                temp => new SelectListItem
+                {
+                    Text = temp.CountryName,
+                    Value = temp.CountryID.ToString(),
+                    Selected = person.CountryID == temp.CountryID ? true :false
+                });  
+            
+            
+
+            return View(person);
+        }
+
+
+        [HttpPost]
+        [Route("[action]/PersonID")]
+        public IActionResult Edit(PersonUpdateRequest? person)
+        {
+            if (!ModelState.IsValid)
+            {
+                List<CountryResponse> countries = _countryService.GetAllCountries();
+
+                ViewBag.Countries = countries.Select(
+               temp => new SelectListItem
+               {
+                   Text = temp.CountryName,
+                   Value = temp.CountryID.ToString(),
+                   Selected = person?.CountryID == temp.CountryID ? true : false
+               });
+
+                ViewBag.Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+                return View(person?.ToPerson().ToPersonResponse());
+            }
+
+            PersonResponse? PersonResponse = _personService.UpdatePerson(person);
+
+            return RedirectToAction("Index"); 
+        }
 
     }
 

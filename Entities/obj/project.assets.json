@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\Entities\\Entities.csproj",
+      "projectUniqueName": "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\Entities\\Entities.csproj",
+      "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-      "outputPath": "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\Entities\\obj\\",
+      "outputPath": "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",

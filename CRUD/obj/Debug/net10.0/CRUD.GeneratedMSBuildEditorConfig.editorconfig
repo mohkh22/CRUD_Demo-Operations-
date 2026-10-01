@@ -12,37 +12,41 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CRUD
 build_property.RootNamespace = CRUD
-build_property.ProjectDir = F:\fullstack\BackEnd\Harsha\Part3\Project-part3\CRUD\CRUD\
+build_property.ProjectDir = F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\fullstack\BackEnd\Harsha\Part3\Project-part3\CRUD\CRUD
+build_property.MSBuildProjectDirectory = F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[F:/fullstack/BackEnd/Harsha/Part3/Project-part3/CRUD/CRUD/Views/Persons/Create.cshtml]
+[F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/Persons/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/fullstack/BackEnd/Harsha/Part3/Project-part3/CRUD/CRUD/Views/Persons/Index.cshtml]
+[F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/Persons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/Persons/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/fullstack/BackEnd/Harsha/Part3/Project-part3/CRUD/CRUD/Views/Shared/_GridColumnView.cshtml]
+[F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/Shared/_GridColumnView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HcmlkQ29sdW1uVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/fullstack/BackEnd/Harsha/Part3/Project-part3/CRUD/CRUD/Views/Shared/_Layout.cshtml]
+[F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/fullstack/BackEnd/Harsha/Part3/Project-part3/CRUD/CRUD/Views/_ViewImports.cshtml]
+[F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/fullstack/BackEnd/Harsha/Part3/Project-part3/CRUD/CRUD/Views/_ViewStart.cshtml]
+[F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

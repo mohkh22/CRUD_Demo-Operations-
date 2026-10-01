@@ -1,0 +1,129 @@
+﻿@model PersonResponse
+@{
+    ViewBag.Title= "Edit"; 
+}
+
+<a href="~/persons/index" class="link-hover">Back to Persons List</a>
+<h2>Update Person</h2>
+
+<div class="w-50">
+    <form asp-controller="Persons" asp-action="Edit" method="post">
+
+        <input asp-for="PersonID" hidden="hidden" />
+
+        @*PersonName*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="@Model.PersonName" class="form-label pt">Person Name</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="@Model.PersonName" class="form-input" />
+            </div>
+        </div>
+
+
+        @*Email*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="@Model.Email" class="form-label pt">Email</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="@Model.Email" class="form-input" />
+            </div>
+        </div>
+
+        @*DateOfBirth*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="@Model.DateOfBirth" class="form-label pt">Date of Birth</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="@Model.DateOfBirth" class="form-input" />
+            </div>
+        </div>
+
+        @*Gender*@
+        @{
+                ViewBag.Genders = new List<string>([GenderOptions.Female.ToString(),GenderOptions.Male.ToString(),GenderOptions.other.ToString()]);
+            }
+
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="@Model.Gender" class="form-label">Gender</label>
+            </div>
+            <div class="flex-1">
+                    @foreach (string item in ViewBag.Genders)
+                    {
+                        if(item == @Model.Gender)
+                        {
+                          <input type="radio"  id="@item" name="Gender" value="@item" checked />
+
+                        }
+                        else
+                        {
+                        <input type="radio"  id="@item" name="Gender" value="@item"  />
+                            
+                        }
+                        <label asp-for="@item">@item</label>
+                    }
+              
+
+               
+            </div>
+        </div>
+
+        @*Country*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label class="form-label" asp-for="@Model.CountryID">Country</label>
+            </div>
+            <div class="flex-1">
+                <select name="CountryID" id="CountryID" class="form-input" asp-items="@ViewBag.Countries">
+                </select>
+            </div>
+        </div>
+
+
+        @*Address*@
+        <div class="form-field flex">
+            <div class="w-25">
+                <label asp-for="Address" class="form-label pt">Address</label>
+            </div>
+            <div class="flex-1">
+                <textarea asp-for="Address" class="form-input"></textarea>
+            </div>
+        </div>
+
+        @*ReceiveNewsLetters*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+            <div class="flex-1">
+                <input asp-for="RecieveNewsLetter" value="@Model.RecieveNewsLetter" />
+                <label asp-for="RecieveNewsLetter" class="form-label">Receive News Letters</label>
+            </div>
+        </div>
+
+        @*Submit*@
+        <div class="form-field flex">
+            <div class="w-25">
+            </div>
+            <div class="flex-1">
+                <button class="button button-green-back">Edit</button>
+
+                @if (ViewBag.Errors != null)
+                {
+                    <div class="text-red ml">
+                        <ul>
+                            @foreach (string error in ViewBag.Errors)
+                            {
+                                <li class="ml">@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
+            </div>
+        </div>
+
+    </form>
+</div>

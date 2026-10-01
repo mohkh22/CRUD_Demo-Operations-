@@ -10,6 +10,7 @@ namespace Entities
 
         [Required(ErrorMessage = "Email can't empty or null")]
         [EmailAddress(ErrorMessage = "Invalid Email ")]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; } = null!; 
         public DateTime? DateOfBirth { get; set; }
 

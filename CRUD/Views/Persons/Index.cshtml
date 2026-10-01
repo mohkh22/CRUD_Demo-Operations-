@@ -85,6 +85,8 @@
 
                     })
 
+               <th>Operations</th>
+
 
 
         </tr>
@@ -102,6 +104,12 @@
                 <td>@item.Address</td>
                 <td>@item.Country</td>
                 <td>@item.RecieveNewsLetter</td>
+                <td>
+                    <a asp-controller="Persons" asp-action="Edit" asp-route-PersonID="@item.PersonID">Edit</a>
+                     <a asp-controller="Persons" asp-action="Delete" asp-route-PersonID="@item.PersonID">Delete</a>
+
+                </td>
+                    
             </tr>
         }
     </tbody>

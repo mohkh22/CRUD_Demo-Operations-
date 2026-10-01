@@ -73,11 +73,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\CRUD\\CRUD.csproj",
+      "projectUniqueName": "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\CRUD\\CRUD.csproj",
       "projectName": "CRUD",
-      "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\CRUD\\CRUD.csproj",
+      "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\CRUD\\CRUD.csproj",
       "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-      "outputPath": "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\CRUD\\obj\\",
+      "outputPath": "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
@@ -102,14 +102,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\Entities\\Entities.csproj": {
-              "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\Entities\\Entities.csproj"
+            "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\Entities\\Entities.csproj": {
+              "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\Entities\\Entities.csproj"
             },
-            "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\ServiceContracts\\ServiceContracts.csproj": {
-              "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\ServiceContracts\\ServiceContracts.csproj"
+            "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\ServiceContracts\\ServiceContracts.csproj": {
+              "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\ServiceContracts\\ServiceContracts.csproj"
             },
-            "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\Services\\Services.csproj": {
-              "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part3\\Project-part3\\CRUD\\Services\\Services.csproj"
+            "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\Services\\Services.csproj": {
+              "projectPath": "F:\\fullstack\\BackEnd\\Harsha\\Part 4\\Project-part4\\CRUD_Demo-Operations-\\Services\\Services.csproj"
             }
           }
         }
