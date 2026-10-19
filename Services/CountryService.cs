@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Microsoft.EntityFrameworkCore;
 using ServiceContracts;
 using ServiceContracts.DTO;
 
@@ -6,28 +7,14 @@ namespace Services
 {
     public class CountryService : ICountryService
     {
-        private readonly List<Country> _countries;
-        public CountryService(bool initialize = true)
+        private readonly AppDbContext _dbContext;
+        public CountryService(AppDbContext appDbContext)
         {
-            _countries = new List<Country>();
-            if (initialize)
-            {
-                        _countries.AddRange(new List<Country>() {
-                new Country() {  CountryID = Guid.Parse("000C76EB-62E9-4465-96D1-2C41FDB64C3B"), CountryName = "USA" },
-
-                new Country() { CountryID = Guid.Parse("32DA506B-3EBA-48A4-BD86-5F93A2E19E3F"), CountryName = "Canada" },
-
-                new Country() { CountryID = Guid.Parse("DF7C89CE-3341-4246-84AE-E01AB7BA476E"), CountryName = "UK" },
-
-                new Country() { CountryID = Guid.Parse("15889048-AF93-412C-B8F3-22103E943A6D"), CountryName = "India" },
-
-                new Country() { CountryID = Guid.Parse("80DF255C-EFE7-49E5-A7F9-C35D7C701CAB"), CountryName = "Australia" }
-                });
-            }
+            _dbContext = appDbContext;
         }
 
 
-        public CountryResponse AddCountry(CountryAddRequest? country)
+        public async Task<CountryResponse> AddCountry(CountryAddRequest? country)
         {
             // validation: check if country is null
             if (country is null)
@@ -43,7 +30,7 @@ namespace Services
 
             // validation : check if country name is dublicate
 
-            if(_countries.Where(temp=> country.CountryName == temp.CountryName).Count()>0)
+            if(await _dbContext.Countries.Where(temp=> country.CountryName == temp.CountryName).CountAsync()>0)
             {
                 throw new ArgumentException("country Already exists", nameof(country.CountryName));
             }
@@ -52,15 +39,16 @@ namespace Services
 
             newCountry.CountryID = Guid.NewGuid();
 
-            _countries.Add(newCountry);
+            _dbContext.Countries.Add(newCountry);
+            await _dbContext.SaveChangesAsync();
             return newCountry.ToCountryResponse(); 
         }
 
-        public List<CountryResponse> GetAllCountries()
+        public async Task<List<CountryResponse>> GetAllCountries()
         {
            List<CountryResponse> CountriesResponse = new List<CountryResponse>();
-
-            foreach(var country in _countries)
+            var countries = await _dbContext.Countries.ToListAsync();
+            foreach (var country in countries)
             {
                 CountriesResponse.Add(country.ToCountryResponse()); 
             }
@@ -68,14 +56,14 @@ namespace Services
             return CountriesResponse;
         }
 
-        public CountryResponse? GetCountryByCountryId(Guid?countryId)
+        public async Task<CountryResponse?> GetCountryByCountryId(Guid?countryId)
         {
             if(countryId is null)
             {
                 return null; 
             }
 
-            Country? country = _countries.FirstOrDefault(x => x.CountryID == countryId);
+            Country? country = await _dbContext.Countries.FirstOrDefaultAsync(x => x.CountryID == countryId);
             CountryResponse? countryResponse = country?.ToCountryResponse(); 
 
             return countryResponse;

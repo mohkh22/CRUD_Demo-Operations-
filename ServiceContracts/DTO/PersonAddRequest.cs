@@ -21,6 +21,7 @@ namespace ServiceContracts.DTO
         public string? Address { get; set; }
 
         public Guid? CountryID { get; set; }
+
         public bool RecieveNewsLetter { get; set; }
 
 

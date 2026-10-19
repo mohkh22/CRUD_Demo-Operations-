@@ -1,15 +1,23 @@
 is_global = true
 build_property.TargetFramework = net10.0
-build_property.TargetFrameworkIdentifier = .NETCoreApp
-build_property.TargetFrameworkVersion = v10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EntryPointFilePath = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.EntryPointFilePath = 
 build_property.RootNamespace = CRUD
 build_property.RootNamespace = CRUD
 build_property.ProjectDir = F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\
@@ -37,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/Persons/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/Persons/PersonsPDF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uc1xQZXJzb25zUERGLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/fullstack/BackEnd/Harsha/Part 4/Project-part4/CRUD_Demo-Operations-/CRUD/Views/Shared/_GridColumnView.cshtml]

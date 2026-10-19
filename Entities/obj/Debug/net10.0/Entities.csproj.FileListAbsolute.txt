@@ -32,3 +32,6 @@ F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\Entities\
 F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\Entities\obj\Debug\net10.0\refint\Entities.dll
 F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\Entities\obj\Debug\net10.0\Entities.pdb
 F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\Entities\obj\Debug\net10.0\ref\Entities.dll
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\Entities\bin\Debug\net10.0\Entities.runtimeconfig.json
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\Entities\obj\Debug\net10.0\Entities.csproj.AssemblyReference.cache
+F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\Entities\obj\Debug\net10.0\Entities.genruntimeconfig.cache

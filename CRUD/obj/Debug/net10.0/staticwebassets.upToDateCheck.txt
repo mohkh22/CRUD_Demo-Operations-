@@ -1,2 +1,3 @@
 F:\fullstack\BackEnd\Harsha\Part 4\Project-part4\CRUD_Demo-Operations-\CRUD\wwwroot\StyleSheet.css
+wwwroot\Rotativa\wkhtmltopdf.exe
 wwwroot\StyleSheet.css
